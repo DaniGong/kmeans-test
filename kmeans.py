@@ -133,27 +133,9 @@ class KMDataSet(object):
 
 
 rds = RandomDS(50)
-# print(rds.data)
-ds = KMDataSet(rds,5)
-
+ds = KMDataSet(rds,4)
 ds.clustering()
-# while True:
-# colors = ["orange","green","yellow","grey","black","blue"]
-# plt.title("K-Means demo")
-# color_indx = 0
-# for cluster in ds.clusters:
-#     xlist,ylist = ds.points_to_xy(cluster.points)
-#     plt.plot(xlist, ylist, "ob",color=colors[color_indx])
-#     color_indx += 1
-# plt.plot(ds.cents[0],ds.cents[1],"+",color='tab:red')
-# # plt.draw()
-# plt.show()
 
-
-
-# print(ds.rand_cents)
-
-#
 
 
 
